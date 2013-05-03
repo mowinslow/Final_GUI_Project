@@ -2,5 +2,6 @@
 <resources>
     <string-array name="random_imgs">
         <item>@drawable/trexel</item>
+        <item>@drawable/leslie</item>
     </string-array>
 </resources>

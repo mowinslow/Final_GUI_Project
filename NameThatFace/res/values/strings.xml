@@ -2,12 +2,11 @@
 <resources>
 
     <string name="app_name">Name That Face</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Morgan Winslow</string>
 
-    <string-array name="PeopleNames">
+    <string-array name="peoplenames">
         <item>Trexel</item>
-        <item>brtdrdldrdrldrrrrr</item>
+        <item>Leslie</item>
         <item>Herb</item>
         <item>Patrick</item>
     </string-array>
