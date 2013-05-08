@@ -6,39 +6,49 @@
     
     <ImageView
         android:id="@+id/personpic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="230dp"
         android:src="@drawable/trexel"
         android:layout_centerHorizontal="true"/>
     
     <Button
         android:id="@+id/option1"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/personpic"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
         android:text="option1"/>
         
     <Button
         android:id="@+id/option2"
-        android:layout_width="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/option1"
-        android:layout_below="@+id/personpic"
+        android:layout_below="@+id/option1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
         android:text="option2"/>
     
     <Button
         android:id="@+id/option3"
-        android:layout_width="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/option1"
+        android:layout_below="@+id/option2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
         android:text="option3"/>
     
     <Button
         android:id="@+id/option4"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/option2"
-        android:layout_toRightOf="@+id/option3"
+        android:layout_below="@+id/option3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
         android:text="option4"/>
        
 

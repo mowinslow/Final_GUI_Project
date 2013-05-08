@@ -1,7 +1,7 @@
 package com.final_proj.winslow;
 
 import android.app.Activity;
-import android.content.res.TypedArray;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -43,7 +43,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		
 		if(v == play)
 		{
-			setContentView(R.layout.game);
+			Intent myIntent = new Intent(MainActivity.this, Game.class);
+			MainActivity.this.startActivity(myIntent);
+			//setContentView(R.layout.game);
 		}
 		
 	}

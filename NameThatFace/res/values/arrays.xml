@@ -3,5 +3,7 @@
     <string-array name="random_imgs">
         <item>@drawable/trexel</item>
         <item>@drawable/leslie</item>
+        <item>@drawable/herb</item>
+        <item>@drawable/patrick</item>
     </string-array>
 </resources>
