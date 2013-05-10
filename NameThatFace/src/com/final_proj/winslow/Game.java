@@ -5,10 +5,11 @@ import java.util.Collections;
 import java.util.List;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
-import android.util.Log;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -19,41 +20,72 @@ public class Game extends Activity implements OnClickListener{
 	private Button choice1, choice2, choice3, choice4;
 	private ImageView image;
 	private Resources res;
-	private TextView text1, text2, text3, text4;
-	private int a, b, c, d;
+	private TextView text1, text2, text3, text4, scoreText, mTextView;
+	private int a, b, c, d, temp, score;
+	long mMilliseconds = 30000;
+	String[] names;
+	List<Integer> scoreList = new ArrayList<Integer>();
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.game);
-		startGame();
-		
-		
+
+	    mTextView = (TextView) findViewById(R.id.textview);
+		mCountDownTimer.start();
+		startGame();	
 	}
 
+	CountDownTimer mCountDownTimer = new CountDownTimer(mMilliseconds, 1000) {
+        @Override
+        public void onFinish() {
+        	finish();
+        	Intent myIntent = new Intent(Game.this, Finished.class);
+        	myIntent.putExtra("score", score);
+			Game.this.startActivity(myIntent);	
+        }
+
+        public void onTick(long millisUntilFinished) {
+            mTextView.setText("" + millisUntilFinished/1000);
+        }
+    };
+    
+	public int getTemp(){
+		return temp;
+	}
+	
+	public void setTemp(int temporary){
+		temp = temporary;
+	}
+	
 	public void startGame(){
+	
+		scoreText = (TextView) findViewById(R.id.score);
+		scoreText.setText(""+score);
+		
 		res = getApplicationContext().getResources();
 		
-		String[] names = res.getStringArray(R.array.peoplenames);
+		names = res.getStringArray(R.array.peoplenames);
 		
 		TypedArray images = getResources().obtainTypedArray(R.array.random_imgs);
 		List<Integer> list = new ArrayList<Integer>();
 		
-		int a = ((int)(Math.random() * 4));
+		int a = ((int)(Math.random() * 39));
+		setTemp(a);
 		list.add(a);
 		
 		int i = 0;
 		int rand;
 		while(i != 3)
 		{
-			rand = ((int)(Math.random() * 4));
+			rand = ((int)(Math.random() * 39));
 			if(!list.contains(rand))
 			{
 				list.add(rand);
 				i++;
 			}
 		}
-		
+
 		Collections.shuffle(list);
 		
 		image = (ImageView) findViewById(R.id.personpic);
@@ -80,18 +112,17 @@ public class Game extends Activity implements OnClickListener{
 	
 	@Override
 	public void onClick(View v){
-	
-		if(v == choice1){
-			image.setImageResource(R.drawable.trexel);
+		temp = getTemp();
+		Button b = (Button)v;
+		String buttonText = b.getText().toString();
+		
+		if(buttonText.equals(names[temp])){
+			score = score + 10;
+			startGame();
 		}
-		if(v == choice2){
-			image.setImageResource(R.drawable.leslie);
-		}
-		if(v == choice3){
-			image.setImageResource(R.drawable.herb);
-		}
-		if(v == choice4){
-			image.setImageResource(R.drawable.patrick);
+		else{
+			b.setText("Incorrect");
+			score = score - 20;
 		}
 	}
 }

@@ -25,26 +25,84 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int button_background=0x7f020000;
-        public static final int herb=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int leslie=0x7f020003;
-        public static final int patrick=0x7f020004;
-        public static final int trexel=0x7f020005;
+        public static final int barry_sanders=0x7f020000;
+        public static final int bart_starr=0x7f020001;
+        public static final int brett_favre=0x7f020002;
+        public static final int button_background=0x7f020003;
+        public static final int button_background_main=0x7f020004;
+        public static final int dan_marino=0x7f020005;
+        public static final int deion_sanders=0x7f020006;
+        public static final int dick_butkus=0x7f020007;
+        public static final int earl_cambell=0x7f020008;
+        public static final int ed_reed=0x7f020009;
+        public static final int emmitt_smith=0x7f02000a;
+        public static final int eric_dickerson=0x7f02000b;
+        public static final int gale_sayers=0x7f02000c;
+        public static final int gene_upshaw=0x7f02000d;
+        public static final int helppic1=0x7f02000e;
+        public static final int helppic2=0x7f02000f;
+        public static final int ic_launcher=0x7f020010;
+        public static final int jack_lambert=0x7f020011;
+        public static final int jerry_rice=0x7f020012;
+        public static final int jim_brown=0x7f020013;
+        public static final int joe_greene=0x7f020014;
+        public static final int joe_montana=0x7f020015;
+        public static final int joe_namath=0x7f020016;
+        public static final int john_elway=0x7f020017;
+        public static final int johnny_unitas=0x7f020018;
+        public static final int kurt_warner=0x7f020019;
+        public static final int ladainian_tomlinson=0x7f02001a;
+        public static final int larry_allen=0x7f02001b;
+        public static final int lawrence_taylor=0x7f02001c;
+        public static final int marshall_faulk=0x7f02001d;
+        public static final int michael_irvin=0x7f02001e;
+        public static final int michael_strahan=0x7f02001f;
+        public static final int peyton_manning=0x7f020020;
+        public static final int question_face=0x7f020021;
+        public static final int randy_moss=0x7f020022;
+        public static final int ray_lewis=0x7f020023;
+        public static final int reggie_white=0x7f020024;
+        public static final int roger_staubach=0x7f020025;
+        public static final int ronnie_lott=0x7f020026;
+        public static final int steve_young=0x7f020027;
+        public static final int terry_bradshaw=0x7f020028;
+        public static final int tom_brady=0x7f020029;
+        public static final int tony_gonzalez=0x7f02002a;
+        public static final int troy_aikman=0x7f02002b;
+        public static final int walter_payton=0x7f02002c;
     }
     public static final class id {
-        public static final int action_settings=0x7f090007;
+        public static final int action_settings=0x7f090018;
+        public static final int done=0x7f090017;
+        public static final int helppic=0x7f090011;
+        public static final int helppic2=0x7f090012;
+        public static final int helptext=0x7f090013;
+        public static final int helptext2=0x7f090014;
+        public static final int highScore=0x7f090002;
+        public static final int homeScreen=0x7f090009;
         public static final int howToButton=0x7f090001;
-        public static final int option1=0x7f090003;
-        public static final int option2=0x7f090004;
-        public static final int option3=0x7f090005;
-        public static final int option4=0x7f090006;
-        public static final int personpic=0x7f090002;
+        public static final int next=0x7f090015;
+        public static final int option1=0x7f09000b;
+        public static final int option2=0x7f09000c;
+        public static final int option3=0x7f09000d;
+        public static final int option4=0x7f09000e;
+        public static final int personpic=0x7f09000a;
+        public static final int playAgain=0x7f090008;
         public static final int playButton=0x7f090000;
+        public static final int previous=0x7f090016;
+        public static final int score=0x7f090010;
+        public static final int score1=0x7f090003;
+        public static final int score2=0x7f090004;
+        public static final int score3=0x7f090005;
+        public static final int score4=0x7f090006;
+        public static final int score5=0x7f090007;
+        public static final int textview=0x7f09000f;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int game=0x7f030001;
+        public static final int finished_game=0x7f030001;
+        public static final int game=0x7f030002;
+        public static final int how_to_play=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f080000;

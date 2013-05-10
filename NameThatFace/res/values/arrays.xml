@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="random_imgs">
-        <item>@drawable/trexel</item>
-        <item>@drawable/leslie</item>
-        <item>@drawable/herb</item>
-        <item>@drawable/patrick</item>
+        <item>@drawable/barry_sanders</item>
+        <item>@drawable/bart_starr</item>
+        <item>@drawable/brett_favre</item>
+        <item>@drawable/dan_marino</item>
+        <item>@drawable/deion_sanders</item>
+        <item>@drawable/dick_butkus</item>
+        <item>@drawable/earl_cambell</item>
+        <item>@drawable/ed_reed</item>
+        <item>@drawable/emmitt_smith</item>
+        <item>@drawable/eric_dickerson</item>
+        <item>@drawable/gale_sayers</item>
+        <item>@drawable/gene_upshaw</item>
+        <item>@drawable/jack_lambert</item>
+        <item>@drawable/jerry_rice</item>
+        <item>@drawable/jim_brown</item>
+        <item>@drawable/joe_greene</item>
+        <item>@drawable/joe_montana</item>
+        <item>@drawable/joe_namath</item>
+        <item>@drawable/john_elway</item>
+        <item>@drawable/johnny_unitas</item>
+        <item>@drawable/kurt_warner</item>
+        <item>@drawable/ladainian_tomlinson</item>
+        <item>@drawable/larry_allen</item>
+        <item>@drawable/lawrence_taylor</item>
+        <item>@drawable/marshall_faulk</item>
+        <item>@drawable/michael_irvin</item>
+        <item>@drawable/michael_strahan</item>
+        <item>@drawable/peyton_manning</item>
+        <item>@drawable/randy_moss</item>
+        <item>@drawable/ray_lewis</item>
+        <item>@drawable/reggie_white</item>
+        <item>@drawable/roger_staubach</item>
+        <item>@drawable/ronnie_lott</item>
+        <item>@drawable/steve_young</item>
+        <item>@drawable/terry_bradshaw</item>
+        <item>@drawable/tom_brady</item>
+        <item>@drawable/tony_gonzalez</item>
+        <item>@drawable/troy_aikman</item>
+        <item>@drawable/walter_payton</item>
     </string-array>
 </resources>

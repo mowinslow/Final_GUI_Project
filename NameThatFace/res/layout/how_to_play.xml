@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    <ImageView
+        android:id="@+id/helppic"
+        android:layout_height="300dp"
+        android:layout_width="310dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/helppic1"/>
+    
+    <ImageView
+        android:id="@+id/helppic2"
+        android:layout_height="300dp"
+        android:layout_width="310dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/helppic2"/>
+    
+    <TextView 
+        android:id="@+id/helptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helppic"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="You will have 30 seconds to correctly choose as many pictures as you can. You will have 4 options when the image pops up. Choose the correct one and get 10 points!"/>
+    
+    <TextView 
+        android:id="@+id/helptext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helppic2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="If you click an incorrect answer you will lose 10 points the first time and 20 points every time thereafter. Good luck!"/>
+    
+    <Button 
+        android:id="@+id/next"
+        android:layout_height="wrap_content"
+        android:layout_width="95dp"
+        android:layout_below="@+id/helptext"
+        android:layout_alignParentRight="true"
+        android:text="Next"/>
+    
+    <Button 
+        android:id="@+id/previous"
+        android:layout_height="wrap_content"
+        android:layout_width="95dp"
+        android:text="Previous"
+        android:layout_below="@+id/helptext"
+        android:layout_alignParentLeft="true"/>
+    
+    <Button 
+        android:id="@+id/done"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Done"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -5,9 +5,44 @@
     <string name="action_settings">Morgan Winslow</string>
 
     <string-array name="peoplenames">
-        <item>Trexel</item>
-        <item>Leslie</item>
-        <item>Herb</item>
-        <item>Patrick</item>
+        <item>Barry Sanders</item>
+        <item>Bart Starr</item>
+        <item>Brett Favre</item>
+        <item>Dan Marino</item>
+        <item>Deion Sanders</item>
+        <item>Dick Butkus</item>
+        <item>Earl Cambell</item>
+        <item>Ed Reed</item>
+        <item>Emmitt Smith</item>
+        <item>Eric Dickerson</item>
+        <item>Gale Sayers</item>
+        <item>Gene Upshaw</item>
+        <item>Jack Lambert</item>
+        <item>Jerry Rice</item>
+        <item>Jim Brown</item>
+        <item>Joe Greene</item>
+        <item>Joe Montana</item>
+        <item>Joe Namath</item>
+        <item>John Elway</item>
+        <item>Johnny Unitas</item>
+        <item>Kurt Warner</item>
+        <item>Ladainian Tomlinson</item>
+        <item>Larry Allen</item>
+        <item>Lawrence Taylor</item>
+        <item>Marshall Faulk</item>
+        <item>Michael Irvin</item>
+        <item>Michael Strahan</item>
+        <item>Peyton Manning</item>
+        <item>Randy Moss</item>
+        <item>Ray Lewis</item>
+        <item>Reggie White</item>
+        <item>Roger Staubach</item>
+        <item>Ronnie Lott</item>
+        <item>Steve Young</item>
+        <item>Terry Bradshaw</item>
+        <item>Tom Brady</item>
+        <item>Tony Gonzalez</item>
+        <item>Troy Aikman</item>
+        <item>Walter Payton</item>
     </string-array>
 </resources>

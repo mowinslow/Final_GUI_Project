@@ -21,14 +21,6 @@ public class MainActivity extends Activity implements OnClickListener {
 		howToPlay = (Button) findViewById(R.id.howToButton);
 		play.setOnClickListener(this);
 		howToPlay.setOnClickListener(this);
-		
-		/*TypedArray imgs = getResources().obtainTypedArray(R.array.random_imgs);
-		imgs.getResourceId(1, -1);
-		// or set you ImageView's resource to the id
-		mImgView1.setImageResource(imgs.getResourceId(1, -1));*/
-		
-		//int[] ImageList = new int[]{R.drawable.trexel};
-		//myImageView.setImageResource(ImageList[1]);
 	}
 
 	@Override
@@ -46,6 +38,10 @@ public class MainActivity extends Activity implements OnClickListener {
 			Intent myIntent = new Intent(MainActivity.this, Game.class);
 			MainActivity.this.startActivity(myIntent);
 			//setContentView(R.layout.game);
+		}
+		if(v == howToPlay){
+			Intent myIntent = new Intent(MainActivity.this, HowToPlay.class);
+			MainActivity.this.startActivity(myIntent);
 		}
 		
 	}

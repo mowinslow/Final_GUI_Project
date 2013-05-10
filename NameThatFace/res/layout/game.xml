@@ -7,13 +7,14 @@
     <ImageView
         android:id="@+id/personpic"
         android:layout_width="250dp"
-        android:layout_height="230dp"
-        android:src="@drawable/trexel"
-        android:layout_centerHorizontal="true"/>
+        android:layout_height="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/peyton_manning" />
     
     <Button
         android:id="@+id/option1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -50,6 +51,20 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/button_background"
         android:text="option4"/>
-       
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textSize="30dp" />
+    
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/personpic"/>
 
 </RelativeLayout>

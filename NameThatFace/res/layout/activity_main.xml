@@ -6,21 +6,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity" 
+    android:background="@drawable/question_face">
 
     <Button
         android:id="@+id/playButton"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play"/>
-    
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/button_background_main"
+        android:text="Play"
+        android:textSize="25dp" 
+        android:textColor="@android:color/white"/>
+
     <Button
         android:id="@+id/howToButton"
-        android:layout_below="@+id/playButton"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="How to Play" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_background_main"
+        android:text="How to Play"
+        android:textSize="25dp"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>
